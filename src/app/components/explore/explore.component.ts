@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Tweet } from 'src/app/models/tweet';
 
 @Component({
   selector: 'app-explore',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./explore.component.scss']
 })
 export class ExploreComponent {
-
+  
 }

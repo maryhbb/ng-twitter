@@ -8,7 +8,6 @@ import { Tweet } from './models/tweet';
 })
 export class AppComponent {
   title = 'ng-twitter';
-
   public tweets : Tweet [] = [
     {
       user : "President Biden",
@@ -23,4 +22,5 @@ export class AppComponent {
       massage: "I'm building back an economy with better jobs and better pay -one that includes good-paying jobs that don’t require a four-year degree, and communities that are too often forgotten."
     }
   ];
+  
 }
