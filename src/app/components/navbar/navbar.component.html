@@ -3,11 +3,11 @@
 <section>
   <nav>
     <ul class="menuItems">
-      <li><a href='#' data-item='Explore'>Explore</a></li>
-      <li><a href='#' data-item='Tweet'>Tweet</a></li>
-      <li><a href='#' data-item='Trends'>Trends</a></li>
-      <li><a href='#' data-item='Profile'>Profile</a></li>
+      <li><a [routerLink]="['/']" data-item='Explore' routerLinkActive="true">Explore</a></li>
+      <li><a [routerLink]="['/create-tweet']" data-item='Create Tweet'>Create Tweet</a></li>
     </ul>
   </nav>
 
 </section>
+
+<router-outlet></router-outlet>
