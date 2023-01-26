@@ -3,16 +3,18 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { TweetComponent } from './components/tweet/tweet.component';
+import { TweetItemComponent } from './components/tweet-item/tweet-item.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
-import { ExploreComponent } from './components/explore/explore.component';
+import { ExploreComponent } from './pages/explore/explore.component';
+import { CreateTweetComponent } from './pages/create-tweet/create-tweet.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TweetComponent,
+    TweetItemComponent,
     NavbarComponent,
-    ExploreComponent
+    ExploreComponent,
+    CreateTweetComponent
   ],
   imports: [
     BrowserModule,
