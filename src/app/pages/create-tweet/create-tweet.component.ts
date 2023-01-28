@@ -14,7 +14,7 @@ export class CreateTweetComponent {
     message: new FormControl()
   })
 
-  macktweet() {
+  maketweet() {
       console.log(this.tweetForm.value);
       
     }
