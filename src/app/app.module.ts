@@ -7,6 +7,7 @@ import { TweetItemComponent } from './components/tweet-item/tweet-item.component
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { ExploreComponent } from './pages/explore/explore.component';
 import { CreateTweetComponent } from './pages/create-tweet/create-tweet.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { CreateTweetComponent } from './pages/create-tweet/create-tweet.componen
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

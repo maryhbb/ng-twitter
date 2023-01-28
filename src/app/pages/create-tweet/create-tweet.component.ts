@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { FormGroup, FormControl } from '@angular/forms';
 
 @Component({
   selector: 'app-create-tweet',
@@ -6,5 +7,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./create-tweet.component.scss']
 })
 export class CreateTweetComponent {
+
+  tweetForm = new FormGroup({
+    username: new FormControl(),
+    date: new FormControl(),
+    message: new FormControl()
+  })
+
+  makeTweet() : void {
+      console.log(this.tweetForm.value);
+      
+    }
 
 }
