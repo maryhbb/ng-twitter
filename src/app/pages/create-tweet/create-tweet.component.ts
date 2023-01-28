@@ -14,7 +14,7 @@ export class CreateTweetComponent {
     message: new FormControl()
   })
 
-  maketweet() {
+  makeTweet() : void {
       console.log(this.tweetForm.value);
       
     }
