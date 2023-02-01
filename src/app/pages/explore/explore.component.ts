@@ -13,8 +13,7 @@ export class ExploreComponent implements OnInit {
   
   public tweets : Tweet [] = []
   
-
   ngOnInit(): void {
-    this.tweetService.tweets = this.tweets;
+    this.tweets = this.tweetService.tweets ;
     }
 }
