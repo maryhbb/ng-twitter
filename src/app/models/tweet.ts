@@ -1,5 +1,5 @@
 export interface Tweet {
-    user: string;
+    username: string;
     avatar :string;
     date :string;
     massage :string;

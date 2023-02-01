@@ -12,6 +12,7 @@ export class CreateTweetComponent {
 
   tweetForm: FormGroup = new FormGroup({
     username: new FormControl(),
+    avatar: new FormControl(),
     date: new FormControl(),
     message: new FormControl(),
   });
