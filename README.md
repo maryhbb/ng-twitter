@@ -1,7 +1,7 @@
 # NgTwitter
 
 
-![](https://github.com/maryhbb/ng-twitter/actions/workflows/workflow.yml/badge.svg)
+![](https://github.com/maryhbb/ng-twitter/actions/workflows/deploy.yml/badge.svg)
 
 
 ## Demo
