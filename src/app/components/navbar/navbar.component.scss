@@ -1,8 +1,4 @@
-* {
-    padding: 0;
-    margin: 0;
-  }
-  
+
   body {
     display: flex;
     flex-direction: column;
@@ -25,9 +21,8 @@
   }
   
   nav {
-    margin: 20px;
     background: #f9f9f9;
-    padding: 8px;
+    margin-bottom: 40px;
 
     .menuItems {
       list-style: none;
